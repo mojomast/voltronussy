@@ -1,0 +1,10 @@
+{
+  "id": "example-web",
+  "name": "Example Web Game",
+  "version": "0.1.0",
+  "engineApiVersion": "0.1",
+  "author": "voltronussy-team",
+  "description": "A playable web example game",
+  "adapter": "adapter-webcanvas",
+  "plugins": []
+}

@@ -1,0 +1,23 @@
+name: Feature request
+description: Propose a plugin or engine capability
+title: "[FEAT] "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    attributes:
+      label: Problem
+      description: What pain are we solving?
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Proposed solution
+      description: Keep it small. Prefer a plugin first.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Acceptance criteria
+      description: What tests or sample game behavior proves it is done?
+    validations:
+      required: true

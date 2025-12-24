@@ -1,0 +1,24 @@
+# Engine maintainers own core packages
+/typescript/packages/ @voltronussy/engine-maintainers
+/python/engine/ @voltronussy/engine-maintainers
+
+# Adapters require maintainer review
+/typescript/adapters/ @voltronussy/engine-maintainers
+/python/adapters/ @voltronussy/engine-maintainers
+
+# Top-level docs and governance
+/docs/ @voltronussy/engine-maintainers
+/.github/ @voltronussy/engine-maintainers
+/README.md @voltronussy/engine-maintainers
+
+# CI and build configuration
+*.json @voltronussy/engine-maintainers
+*.yaml @voltronussy/engine-maintainers
+*.yml @voltronussy/engine-maintainers
+
+# Games and plugins are open for community review
+# No CODEOWNERS entry means anyone can approve
+# /typescript/games/
+# /typescript/plugins/
+# /python/games/
+# /python/plugins/

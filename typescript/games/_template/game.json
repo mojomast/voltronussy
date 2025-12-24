@@ -1,0 +1,10 @@
+{
+  "id": "_template",
+  "name": "Game Template",
+  "version": "0.1.0",
+  "engineApiVersion": "0.1",
+  "author": "your-github-username",
+  "description": "A template for creating new games",
+  "adapter": "adapter-webcanvas",
+  "plugins": []
+}

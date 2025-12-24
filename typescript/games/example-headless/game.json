@@ -1,0 +1,10 @@
+{
+  "id": "example-headless",
+  "name": "Example Headless Game",
+  "version": "0.1.0",
+  "engineApiVersion": "0.1",
+  "author": "voltronussy-team",
+  "description": "A headless example game for testing the engine",
+  "adapter": "adapter-null",
+  "plugins": []
+}
