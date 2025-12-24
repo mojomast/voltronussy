@@ -1,0 +1,10 @@
+{
+  "id": "voltronussy.template",
+  "name": "Plugin Template",
+  "version": "0.1.0",
+  "engineApiVersion": "0.1",
+  "status": "experimental",
+  "tags": ["template"],
+  "dependsOn": [],
+  "capabilities": ["template.example"]
+}

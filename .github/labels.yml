@@ -1,0 +1,114 @@
+# GitHub Labels Configuration
+#
+# Apply with: gh label create <name> --color <color> --description "<desc>"
+# Or use a tool like github-label-sync
+#
+# To sync: gh api repos/{owner}/{repo}/labels --method POST -f name="..." -f color="..." -f description="..."
+
+labels:
+  # ==========================================================================
+  # Patch Queue Labels
+  # ==========================================================================
+  - name: "patch:proposal"
+    color: "d4c5f9"
+    description: "New feature or plugin proposal"
+
+  - name: "patch:accepted"
+    color: "a2eeef"
+    description: "Proposal approved, ready for implementation"
+
+  - name: "patch:in-progress"
+    color: "1d76db"
+    description: "Currently being worked on"
+
+  - name: "patch:needs-review"
+    color: "fbca04"
+    description: "Ready for maintainer review"
+
+  - name: "patch:ready-for-promotion"
+    color: "0e8a16"
+    description: "Plugin ready for promotion to stable/core"
+
+  - name: "patch:promoted"
+    color: "0e8a16"
+    description: "Successfully promoted to stable or core"
+
+  - name: "patch:rejected"
+    color: "e4e669"
+    description: "Proposal not accepted"
+
+  # ==========================================================================
+  # Type Labels
+  # ==========================================================================
+  - name: "game:submission"
+    color: "ff6b6b"
+    description: "New game submission"
+
+  - name: "engine:breaking-change"
+    color: "b60205"
+    description: "Requires engineApiVersion bump"
+
+  - name: "bug"
+    color: "d73a4a"
+    description: "Something isn't working"
+
+  - name: "documentation"
+    color: "0075ca"
+    description: "Improvements or additions to documentation"
+
+  - name: "enhancement"
+    color: "a2eeef"
+    description: "New feature or request"
+
+  # ==========================================================================
+  # Track Labels
+  # ==========================================================================
+  - name: "track:typescript"
+    color: "3178c6"
+    description: "TypeScript track"
+
+  - name: "track:python"
+    color: "3572A5"
+    description: "Python track (experimental)"
+
+  # ==========================================================================
+  # Area Labels
+  # ==========================================================================
+  - name: "area:core"
+    color: "5319e7"
+    description: "Engine core changes"
+
+  - name: "area:plugin-host"
+    color: "5319e7"
+    description: "Plugin host changes"
+
+  - name: "area:adapters"
+    color: "5319e7"
+    description: "Adapter changes"
+
+  - name: "area:ci"
+    color: "5319e7"
+    description: "CI/build changes"
+
+  # ==========================================================================
+  # Status Labels
+  # ==========================================================================
+  - name: "good-first-issue"
+    color: "7057ff"
+    description: "Good for newcomers"
+
+  - name: "help-wanted"
+    color: "008672"
+    description: "Extra attention is needed"
+
+  - name: "wontfix"
+    color: "ffffff"
+    description: "This will not be worked on"
+
+  - name: "duplicate"
+    color: "cfd3d7"
+    description: "This issue or pull request already exists"
+
+  - name: "invalid"
+    color: "e4e669"
+    description: "This doesn't seem right"

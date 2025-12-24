@@ -1,0 +1,6 @@
+# Edit these teams/usernames to match your org
+/packages/ @engine-maintainers
+/adapters/ @adapter-maintainers
+/plugins/ @plugin-maintainers
+/games/ @game-maintainers
+/docs/ @docs-maintainers
