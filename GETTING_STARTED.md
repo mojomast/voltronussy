@@ -70,7 +70,7 @@ sudo dnf install git  # Fedora
 ## Step 1: Clone the Repository
 
 ```bash
-git clone https://github.com/kylebjordahl/voltronussy.git
+git clone https://github.com/mojomast/voltronussy.git
 cd voltronussy
 ```
 

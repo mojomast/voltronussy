@@ -33,7 +33,7 @@ Voltronussy is a **collaborative monorepo** where anyone can:
 
 ```bash
 # 1. Clone and setup
-git clone https://github.com/kylebjordahl/voltronussy.git
+git clone https://github.com/mojomast/voltronussy.git
 cd voltronussy/typescript
 pnpm install
 
@@ -68,7 +68,7 @@ The TypeScript track is the primary implementation. Python exists for contributo
 
 ```bash
 # Clone the repo
-git clone https://github.com/kylebjordahl/voltronussy.git
+git clone https://github.com/mojomast/voltronussy.git
 cd voltronussy/typescript
 
 # Install dependencies
@@ -279,7 +279,7 @@ See [docs/GOVERNANCE.md](docs/GOVERNANCE.md) for the full patch queue process.
 ┌─────────────────────────────────────────────────────────────────┐
 │                                                                 │
 │   1. CLONE                                                      │
-│      git clone https://github.com/kylebjordahl/voltronussy.git     │
+│      git clone https://github.com/mojomast/voltronussy.git     │
 │      cd voltronussy/typescript                                  │
 │      pnpm install                                               │
 │                                                                 │

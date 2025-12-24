@@ -8,7 +8,7 @@ Welcome! This guide explains how to add your game (and mechanics) to the repo.
 
 ```bash
 # 1. Clone and install
-git clone https://github.com/kylebjordahl/voltronussy.git
+git clone https://github.com/mojomast/voltronussy.git
 cd voltronussy/typescript
 pnpm install
 
